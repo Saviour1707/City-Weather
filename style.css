@@ -92,3 +92,42 @@ body{
     margin-top: 10px;
     display: none;
 }
+.sunrise,
+.sunset {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 200px; /* Adjust width as needed */
+    background: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    border-radius: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.sunrise {
+    left: calc(50% - 470px); /* Adjust according to the center div width */
+}
+
+.sunset {
+    right: calc(50% - 470px); /* Adjust according to the center div width */
+}
+
+.sunrise h1,
+.sunset h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.sunrise-details,
+.sunset-details {
+    padding: 10px;
+}
+
+.sunrise img,
+.sunset img {
+    border-radius: 50%;
+    width: 170px; /* Adjust to match the weather icon size */
+    height: auto; /* Keep aspect ratio */
+    margin-top: 30px; 
+    /* Adjust vertical alignment */
+}
