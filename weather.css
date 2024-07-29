@@ -78,12 +78,9 @@ body{
     width: 40px;
     margin-right: 10px;
 }
-.humidity, wind{
+.humidity, .wind, .visibility, .feels-like{
     font-size: 28px;
     margin-top: -6px;
-}
-.weather{
-    display: none;
 }
 .error{
     text-align: left;
